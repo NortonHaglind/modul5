@@ -63,5 +63,9 @@ while active:
         print(len(list1))"""
 
     
-my_library={"name": "Volvo 740" , "utg.": 1984 , "color": "vit" }
-print("min favorit bil är en" ,my_library["name"] , "med färgen" , my_library["color"] , "och utgivningen" , my_library["utg."])
+my_library={"name": "Volvo 740", 
+            "year": 1984, 
+            "color": "vit"
+            }
+
+print(f"min favorit bil är en {my_library['name']} med färgen {my_library['color']} och utgivningen {my_library['utg.']}")
