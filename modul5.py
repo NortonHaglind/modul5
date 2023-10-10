@@ -68,4 +68,4 @@ my_library={"name": "Volvo 740",
             "color": "vit"
             }
 
-print(f"min favorit bil är en {my_library['name']} med färgen {my_library['color']} och utgivningen {my_library['utg.']}")
+print(f"min favorit bil är en {my_library['name']} med färgen {my_library['color']} och utgivningen {my_library['year']}")
